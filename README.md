@@ -1,6 +1,6 @@
 # refuelling-impairments
 **Created:**&nbsp;&nbsp; October 25<sup>th</sup>, 2025  
-**Updated:**&nbsp; 10-25-2025 @ 8:32 PM  
+**Updated:**&nbsp; 10-25-2025 @ 8:35 PM  
 
 A tool for monitoring and analyzing system hardware usage while running iRacing.
 
@@ -8,9 +8,9 @@ A tool for monitoring and analyzing system hardware usage while running iRacing.
 
 ### Index of Contents
 
-1. [State of System](#state-of-system)
-2. [Objectives](#objectives)
-3. [Notes](#notes)
+1. [State of System](#1--state-of-system)
+2. [Objectives](#2--objectives)
+3. [Notes](#3--notes)
 
 ---
 
