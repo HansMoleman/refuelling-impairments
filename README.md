@@ -1,6 +1,6 @@
 # refuelling-impairments
 **Created:**&nbsp;&nbsp; October 25<sup>th</sup>, 2025  
-**Updated:**&nbsp; 10-28-2025 @ 10:25 PM  
+**Updated:**&nbsp; 11-19-2025 @ 7:50 PM  
 
 A tool for monitoring and analyzing system hardware usage while running iRacing.
 
@@ -20,9 +20,10 @@ A tool for monitoring and analyzing system hardware usage while running iRacing.
 
 The following is a summary of the system's current state:
 
-* system will fetch CPU usage data, print it to the display, and then sleep for _n_ seconds.
+* system will fetch CPU and RAM usage data, print it to the display, and then sleep for _n_ seconds.
 * system will also print the time offset at which a check occurs.
-* system will write the time and value of CPU usage to a .csv data file each check.
+* system will write the time and value of CPU usage to a .csv data file for each check.
+* system will check for existence of data file from previous session and remove it prior to new data collection.
 
 In Progress:
 
@@ -33,8 +34,8 @@ In Progress:
 
 - [x] implement ability to monitor CPU usage every _n_ seconds on an infinite cycle
 - [x] implement ability to record CPU usage as it monitors it on an infinite cycle
-- [ ] implement ability to monitor and record RAM usage on a set interval
-- [ ] implement ability to monitor and record disk read/write usage on a set interval
+- [x] implement ability to monitor and record RAM usage on infinite cycle
+- [ ] implement ability to monitor and record disk read/write usage on infinite cycle
 - [ ] give user ability to both run and stop system at will
 - [ ] implement ability to produce graph of CPU usage
 - [ ] implement ability to save image of CPU usage graph to disk
